@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,500;0,700;1,400&display=swap');
+@import url('../fonts/custom-fonts.css');  /* font-family: 'Ubuntu', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins:wght@500;600;700&family=Ubuntu:wght@400;500&display=swap');
+
+
+.bg_carousel {
+    height: 100vh;
+}
+.header_wrapper {
+    position: relative;
+}
+.header_wrapper .bg_carousel img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.navigation ul li{
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+}
+
+.navigation ul > li > a:hover{
+    color: #349de3  !important;
+}
+.navbar-toggler .fa-bars{
+    color: #ffffff;
+}
+
+/* .header-nav-ul {
+  background: #444;
+} */
+
+/*-- mobile first --*/
+@media (min-width: 576px) {
+
+}
+@media (min-width: 768px) {
+  .navigation ul li{
+    font-size: 1rem;
+    white-space: nowrap;
+  }
+}
+@media (min-width: 992px) {
+  
+}
+@media (min-width: 1200px) {
+  
+}
+
+/*-- Desktop first --*/
+@media (max-width: 575px) {
+
+}
+@media (max-width: 767px) {
+  .header-nav-ul {
+    background: #444;
+  }
+}
+@media (max-width: 991px) {
+  
+}
+@media (max-width: 1199px) {
+  
+}
